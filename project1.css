@@ -10,7 +10,7 @@ padding: 50px;}
     padding-top: 15px;
     padding-inline: 15px;
     padding-bottom: 15px;
-    font-size: large;
+    font-size: 50px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: bold;
 text-align: center;
@@ -85,5 +85,17 @@ text-align: center;
     background: radial-gradient( rgb(202, 240, 205), rgb(130, 230, 126));
     line-height: 40px;
     border: 1px
+
+}
+
+.infotable {
+    border: 2px solid;
+    background-color: rgb(201, 201, 136);
+    top: 20%;
+    bottom: 20%;
+    right: 40%;
+    left: 40%;
+    width: 300px; margin: auto
+
 
 }
