@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-image: url(../static/images/homebg.png); background-size: cover;">
+<!-- HEAD BAR -->
+<div class="inline" style="padding-top: 15px; padding-inline: 20px; padding-bottom: 15px; background-color: lightblue;">
+    <img src="../static/images/hairlogo.png" height="95px" alt="hair logo image">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightskyblue;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('home')}}">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="{{url_for('discover')}}">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('products')}}">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url_for('style')}}">Style</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{url_for('contact')}}">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</div>
+<!-- HEAD BAR END -->
+<div class="homecontainer">
+    <div class="hometext">
+        DISCOVER
+    </div>
+    <br>
+    <div class="homedescription">
+        To start your hair care journey, use this page to figure out what hair type you have!<br>
+        From wavy to curly to coily hair, we have information to figure out which the categories you fall into.
+        Using this information, you can start styling your hair!
+    </div>
+</div>
+<br><br>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm discovercontainer" align="center">
+        <h2>Wavy Hair</h2>
+        <img src="../static/images/wavy hair.png" alt="wavy hair" width="125px"> <p>  </p>
+        <button type="button" data-toggle="modal" data-target="#exampleModalLong" class="discoverbutton">
+            Discover Wavy Hair
+          </button>
+      </div>
+      <div class="col-sm discovercontainer" align="center">
+        <h2>Curly Hair</h2>
+        <img src="../static/images/curly hair.png" alt="curly hair" width="125px"> <p>  </p>
+        <button type="button" data-toggle="modal" data-target="#exampleModalLong2" class="discoverbutton">
+            Discover Curly Hair
+          </button>
+      </div>
+      <div class="col-sm discovercontainer" align="center">
+        <h2>Coily Hair</h2>
+        <img src="../static/images/coily hair.png" alt="coily hair" width="125px"> <p>  </p>
+        <button type="button" data-toggle="modal" data-target="#exampleModalLong3" class="discoverbutton">
+            Discover Wavy Hair
+          </button>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal for wavy-->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="background-color: rgba(175, 218, 254, 0.616);">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Wavy Hair Types</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div>
+                <h4 align="center">2A hair:</h4>
+                <p>This hair type is very fine and thin with very slight “s” shape curves.</p>
+            </div>
+            <div>
+                <h4 align="center">2B hair:</h4>
+                <p>This type has more defined “s” shape curls, is more thicker, and tends to be more frizzier.</p>
+            </div>
+            <div>
+                <h4 align="center">2C hair:</h4>
+                <p>This hair type has the most “s” defined shapes and is the thickest of all the wavy hair types. </p>
+                <div class="col-sm">
+                    <img align='center' src="../static/images/2hairtype.png" alt="2 hair" width="450px"> 
+                </div>
+
+            </div>
+            
+          
+        </div>
+
+      </div>
+</div>
+<!-- Modal end-->
+
+</div>
+
+<br> 
+<!-- Modal for curly-->
+<div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="background-color: rgba(175, 218, 254, 0.616);">
+    <div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Curly Hair Types</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        <div>
+            <h4 align="center">3A hair:</h4>
+            <p>This hair type has very defined curls and is very thick, but can also be a bit frizzy.</p>
+        </div>
+        <div>
+            <h4 align="center">3B hair:</h4>
+            <p>This hair type has tighter curls and has a combination of different curl textures.</p>
+        </div>
+        <div>
+            <h4 align="center">3C hair:</h4>
+            <p>This hair type has a lot of kinks along with very tight curls.</p>
+            <div class="col-sm">
+                <img align='center' src="../static/images/3hairtype.png" alt="3 hair" width="450px"> 
+            </div>
+
+        </div>
+        
+      
+    </div>
+
+  </div>
+</div>
+<!-- Modal end-->
+
+      </div>
+    </div>
+
+<br>
+
+<!-- Modal for coily -->
+<div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="background-color: rgba(175, 218, 254, 0.616);">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Coily Hair Types</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div>
+            <h4 align="center">4A hair:</h4>
+            <p>This hair type is soft with very tightly coiled curls/kinks. </p>
+        </div>
+        <div>
+            <h4 align="center">4B hair:</h4>
+            <p>This hair type has very tight coils, but tends to be less soft and defined. </p>
+        </div>
+        <div>
+            <h4 align="center">4C hair:</h4>
+            <p>This hair type hair extremely tight curls, with a very voluminous style.</p>
+            <div class="col-sm">
+                <img align='center' src="../static/images/4hairtype.png" alt="4 hair coily" width="450px"> 
+            </div>
+
+        </div>
+        
+        
+    </div>
+
+    </div>
+</div>
+        <!-- Modal end-->
+      </div>
+    
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>

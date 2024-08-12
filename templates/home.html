@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-image: url(../static/images/homebg.png); background-size: cover;">
+<!-- HEAD BAR -->
+    <div class="inline" style="padding-top: 15px; padding-inline: 20px; padding-bottom: 15px; background-color: lightblue;">
+        <img src="../static/images/hairlogo.png" height="95px" alt="hair logo image">
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: lightskyblue;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{url_for('home')}}">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url_for('discover')}}">Discover</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url_for('products')}}">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('style')}}">Style</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('contact')}}">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+<!-- HEAD BAR END -->
+<div class="homecontainer">
+    <div class="hometext">
+        LEARN. DISCOVER. <br> STYLE.
+    </div>
+    <br>
+    <div class="homedescription">
+        In a survey done by NaturallyCurly, 930 of the 1,000 women reported that they don't love their hair. 
+        We want to change that.
+        Learn how to love and care for your natural hair today! Discover your hair type, find products for your hair type, and learn different types of hairstyles! <br>
+    </div>
+</div>
+
+    
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
