@@ -1,0 +1,101 @@
+body {
+background:rgb(213, 220, 172);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-indent: 20px;
+text-align-last: center;
+padding: 50px;}
+
+.headerimage {
+    background-color: rgb(192, 203, 107);
+    padding-top: 15px;
+    padding-inline: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: bold;
+text-align: center;
+}
+
+.h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation {
+    padding: 15px;
+    background-color: lightcoral;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.homeimage {
+    padding-inline: 15px;
+
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(72, 106, 57);
+    background-color: rgb(214, 214, 151);
+    cursor: pointer;
+}
+
+.table {
+    background-color: rgb(132, 179, 143);
+    border-width: 15px;
+    border-color: rgb(152, 196, 162);
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.kaituretable {
+    background-color: rgb(241, 170, 170);
+    border-width: 10px;
+    border-color: beige;
+    text-align: center;
+    border-radius: 20px;
+    text-align: 30px;
+}
+
+.box {
+    padding: 20px;
+    background: radial-gradient( rgb(240, 202, 202), rgb(230, 126, 143));
+    line-height: 40px;
+    border: 1px
+}
+
+.box2 {
+    padding: 20px;
+    background: radial-gradient( rgb(239, 240, 202), rgb(227, 230, 126));
+    line-height: 40px;
+    border: 1px
+}
+
+.botanicaltable {
+    background-color: rgb(240, 248, 159);
+    border-width: 10px;
+    border-color: beige;
+    text-align: center;
+    border-radius: 20px;
+    text-align: 30px;
+}
+
+.box3 {
+    padding: 20px;
+    background: radial-gradient( rgb(202, 240, 205), rgb(130, 230, 126));
+    line-height: 40px;
+    border: 1px
+
+}
+
+.infotable {
+    border: 2px solid;
+    background-color: rgb(201, 201, 136);
+    top: 20%;
+    bottom: 20%;
+    right: 40%;
+    left: 40%;
+    width: 300px; margin: auto
+
+
+}
